@@ -1,0 +1,537 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+ul.nav li.menu-item {
+    /* padding: .5rem!important; */
+}
+ul.nav li.menu-item a {
+  padding: .5rem!important;
+  color: #6c757d!important;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.blog-main {
+  margin-bottom: 4rem;
+}
+/*
+  * Blog name and description
+  */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-top: 15px;
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+  * Blog posts
+  */
+.blog-post {
+  /* margin-bottom: 4rem; */
+  clear: both;
+  padding-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+img {
+  /* width: 100%!important; */
+  height: auto!important;
+  max-width: 100%;
+  position: relative;
+}
+/*
+  * Footer
+  */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.widget h3.widget-title {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.widget_categories select.postform {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.widget_categories label {
+  display: none;
+}
+
+.widget ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.widget ul li {
+  line-height: 1.6em;
+  padding-left: 4px;
+}
+
+.widget {
+  margin-bottom: 15px;
+}
+
+.widget.widget_media_image img {
+  width: 100%!important;
+}
+
+input,
+select,
+textarea,
+input[type=checkbox] {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+input[type=submit],
+input[type=button] {
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: #ffffff;
+}
+
+.post-thumbnail-class {
+  margin-bottom: 15px;
+}
+.post-thumbnail-caption {
+  width: 100%;
+  text-align: center;
+  background-color: #eee;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%!important;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 1rem;
+}
+
+.alignright {
+  float: right;
+  margin-right: 1rem;
+}
+
+.product.has-default-attributes.has-children > .images ,
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images 
+{opacity:1!important;}
+
+.woocommerce .product-list-title {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.woocommerce ul.products li.product a img {
+  margin: 0px!important;
+}
+
+.woocommerce-loop-product__title {
+  text-align: center;
+}
+
+.woocommerce ul.products li.product .price {
+  color: dodgerblue;
+  text-align: center;
+  position: absolute;
+  margin-top: -100px;
+  background: #ffffff;
+  padding: 2px 0;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  color: dodgerblue;
+}
+
+.woocommerce span.onsale {
+  background-color: red;
+  border-radius: 10%;
+  padding: 0px;
+  line-height: 1.3em;
+  min-height: 1.6em;
+}
+
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+  background-color: red;
+  color: #fff;
+}
+
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+  background-color: crimson;
+}
+
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+  padding: 0.38em 1em;
+}
+
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover {
+  background-color: crimson;
+  color: #fff;
+}
+
+.product_meta .sku_wrapper,
+.product_meta .posted_in {
+  width: 100%!important;
+  display: block
+}
+.product_meta .sku_wrapper .sku {
+  font-weight: bold;
+}
+
+.woocommerce a.button {
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+  list-style: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+  line-height: 1.8em;
+}
+
+.blog-pagination a {
+  background-color:transparent;
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  box-shadow: none;
+  color: dodgerblue;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+
+.blog-pagination a:hover {
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+.blog-post table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.blog-post table thead tr th {
+  background-color: #f5f5f5;
+  text-align:center;
+  padding: 4px;
+}
+
+.blog-post table tbody tr th,
+.blog-post table tbody tr td {
+  padding: 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-nav-links {
+  border-top: 1px solid dodgerblue;
+}
+
+.post-nav-links .post-page-numbers {
+  padding: 0 .5em;
+}
+.page-title {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  clear: both;
+  font-size: 2.5rem!important;
+}
+
+.alignnone {
+  clear: both;
+  display: inline-block;
+  max-width: 100%!important;
+}
+
+blockquote {
+  border-left: 5px solid #555;
+  padding-left: 15px;
+  margin-left: 15px;
+  font-style: oblique;
+}
+
+.wp-block-pullquote blockquote {
+  border: none;
+}
+
+.wp-caption-text {
+  font-style: oblique;
+}
+
+.sticky {
+  background-color: #eee;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.comments-wrapper h3#comments {
+
+}
+
+.comments-wrapper .navigation {
+
+}
+
+ol.commentlist {
+
+}
+
+ol.commentlist > li {
+  font-size: 1em;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+
+.comment-author.vcard .avatar {
+  border-radius: 4px;
+  float: left;
+  margin: 0 10px 0 0;
+  width: 40px;
+}
+
+.comment-author.vcard cite.fn {
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1em;
+  padding: 0px;
+  margin: 0px;
+}
+
+.comment-meta.commentmetadata {
+  font-size: .9em;
+}
+
+.comment-form-comment label {
+  display: block;
+}
+
+.comment-form-comment textarea {
+  width: 100%;
+  max-width: 100%;
+}
+
+.gallery-columns-1 .gallery-icon {
+  text-align: center;
+}
+
+.gallery-columns-2 {
+  height: auto;
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+  width: 50%;
+  /* float: left; */
+  display: inline-table;
+}
+.gallery-columns-2 .gallery-icon {
+  text-align: center;
+}
+
+.gallery-columns-3 .gallery-item {
+  width: 32.3333333333333%;
+  display: inline-table;
+  /* float: left; */
+}
+
+.gallery-columns-4 .gallery-item {
+  width: 24.999999999999%;
+  display: inline-table;
+  /* float: left; */
+}
+
+.gallery-columns-5 .gallery-item {
+  width: 19.9999999999%;
+  display: inline-table;
+  /* float: left; */
+}
+
+.gallery-columns-6 .gallery-item {
+  width: 16.711%;
+  display: inline-table;
+  /* float: left; */
+}
+.gallery-columns-7 .gallery-item {
+  width: 14.15%;
+  display: inline-table;
+  /* float: left; */
+}
+
+.gallery-columns-8 .gallery-item {
+  width: 12.55%;
+  display: inline-table;
+  /* float: left; */
+}
+.gallery-columns-9 .gallery-item {
+  width: 10.85%;
+  display: inline-table;
+  /* float: left; */
+}
+
+.menu-item-has-children .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0px;
+}
+.menu-item-has-children:hover .sub-menu {
+  display: block;
+}
+
+.menu-item-has-children .sub-menu li {
+  list-style: none;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-item-has-children .sub-menu .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0px;
+  margin-left: 18px;
+}
+.menu-item-has-children .sub-menu li:hover .sub-menu {
+  display: inline-block;
+}
+
+
+.navbar {
+  padding: 0px;
+  margin: 4px 0;
+}
+.navbar .container-fluid {
+  padding: 0px;
+}

@@ -1,4 +1,4 @@
-=== Twenty Nineteen ===
+=== Genoxio ===
 Contributors: metalgenix
 Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 Requires at least: 4.9.6

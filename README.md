@@ -23,4 +23,4 @@ Simple and Lightweight WordPress Theme. Based on [Bootstrap Sample Blog theme by
 - GPLv2
 
 ## Credits
-- Developed and Maintained by [MetalGenix](https://metalgenix.com)
+- Developed and Maintained by [MetalGenix](https://metalgenix.id)
